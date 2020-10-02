@@ -51,7 +51,7 @@ function showSign() {
   request.open("GET", "Sign.json", true);
   request.send();
 }
-// Dark mode fucntion
+// Dark mode
 function darkMode() {
   var box = document.querySelector("body");
   var btn = document.querySelector(".fas");
@@ -60,7 +60,7 @@ function darkMode() {
   box.style.background = "#15181a";
   btn.setAttribute("onclick", "lightMode()");
 }
-// Light mode fucntion
+// Light mode
 function lightMode() {
   var box = document.querySelector("body");
   var btn = document.querySelector(".fas");
